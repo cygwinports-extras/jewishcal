@@ -1,0 +1,4 @@
+category: Judaism
+requires: cygwin glib gtk+
+sdesc: "Jewish calendar for GTK+"
+ldesc: "Jewish calendar for GTK+"
