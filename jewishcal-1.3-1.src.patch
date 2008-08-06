@@ -1,4 +1,3 @@
-diff -urN -x CYGWIN-PATCHES -x 'aclocal.m4*' -x ltmain.sh -x 'config.*' -x depcomp -x install-sh -x missing -x mkinstalldirs -x autom4te.cache -x '*compile' -x 'intltool*.in' -x 'xml-i18n-*.in' -x '*.pyc' -x '*.mo' -x '*.gmo' -x ABOUT-NLS -x Makevars.template -x COPYING -x INSTALL -x '*.orig' -x '*.rej' -x '*~' -x '*.temp' -x texinfo.tex -x ylwrap -x gnome-doc-utils.make -x intltool.m4 -x omf.make -x xmldocs.make origsrc/jewishcal-1.3/calctime.c src/jewishcal-1.3/calctime.c
 --- origsrc/jewishcal-1.3/calctime.c	2002-05-13 13:09:39.000000000 -0500
 +++ src/jewishcal-1.3/calctime.c	2006-06-13 14:58:42.609375000 -0500
 @@ -268,7 +268,11 @@
@@ -13,7 +12,6 @@ diff -urN -x CYGWIN-PATCHES -x 'aclocal.m4*' -x ltmain.sh -x 'config.*' -x depco
            iValue = hour*60 + min;
            
            lpCalc->iCurrentToken = CalcGetToken(lpCalc);
-diff -urN -x CYGWIN-PATCHES -x 'aclocal.m4*' -x ltmain.sh -x 'config.*' -x depcomp -x install-sh -x missing -x mkinstalldirs -x autom4te.cache -x '*compile' -x 'intltool*.in' -x 'xml-i18n-*.in' -x '*.pyc' -x '*.mo' -x '*.gmo' -x ABOUT-NLS -x Makevars.template -x COPYING -x INSTALL -x '*.orig' -x '*.rej' -x '*~' -x '*.temp' -x texinfo.tex -x ylwrap -x gnome-doc-utils.make -x intltool.m4 -x omf.make -x xmldocs.make origsrc/jewishcal-1.3/halachatest.c src/jewishcal-1.3/halachatest.c
 --- origsrc/jewishcal-1.3/halachatest.c	2002-05-20 04:01:46.000000000 -0500
 +++ src/jewishcal-1.3/halachatest.c	2006-06-13 15:37:23.328125000 -0500
 @@ -26,7 +26,7 @@
