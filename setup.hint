@@ -1,4 +1,4 @@
-category: Judaism
-requires: cygwin glib gtk+
+category: Religion
+requires: cygwin libgcc1 libglib1.2_0 libgtk1.2_0
 sdesc: "Jewish calendar for GTK+"
 ldesc: "Jewish calendar for GTK+"
