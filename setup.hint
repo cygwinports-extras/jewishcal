@@ -1,4 +1,4 @@
 category: Religion
-requires: libgcc1 libglib1.2_0 libgtk1.2_0
+requires: libgcc1 libglib2.0_0 libgtk2.0_0
 sdesc: "Jewish calendar for GTK+"
 ldesc: "Jewish calendar for GTK+"

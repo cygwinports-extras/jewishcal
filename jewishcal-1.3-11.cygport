@@ -9,19 +9,11 @@ src_compile() {
 	./compile_i386
 	cygmake \
 		CC="${CC}" \
-		CCFLAGS="${CFLAGS:--O2 -pipe} -Wall" \
-		INCPATH="$(gtk-config --cflags)" \
+		CCFLAGS="${CFLAGS} -Wall" \
+		INCPATH="$(pkg-config --cflags gtk+-2.0)" \
 		LIBPATH="" \
-		LIBS="$(gtk-config --libs)" \
+		LIBS="$(pkg-config --libs gtk+-2.0)" \
 		|| error "make failed"
-}
-
-src_test() {
-	:
-#	cd ${B}
-#	cygmake halachatest \
-#		CCFLAGS="${CFLAGS:--O2 -pipe} -Wall" \
-#		|| error "make halachatest failed"
 }
 
 src_install() {
@@ -32,5 +24,5 @@ src_install() {
 	doins cities
 
 	doicon jewcal.xpm
-	make_desktop_entry jewishcal "Jewish Calendar" jewcal.xpm Other
+	make_desktop_entry jewishcal "Jewish Calendar" jewcal.xpm "Office;Calendar"
 }
